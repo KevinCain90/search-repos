@@ -33,6 +33,7 @@ export default class App extends Component {
   }
 
   render() {
+    console.log(this.state.repos);
     return (
       <div>
         <div className="main-header">

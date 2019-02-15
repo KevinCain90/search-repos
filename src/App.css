@@ -49,10 +49,6 @@ button {
   z-index: 2000;
 }
 
-/* =================================
-Page Components
-==================================== */
-
 .main-title {
   font-size: 1.4em;
   line-height: 80px;
@@ -106,10 +102,6 @@ Page Components
   min-width: 100%;
 }
 
-/* =================================
-Layout Styles
-==================================== */
-
 .inner,
 .main-content {
   width: 90%;
@@ -143,10 +135,6 @@ Layout Styles
   position: absolute;
   width: 1px;
 }
-
-/* =================================
-Media Queries
-==================================== */
 
 @media (min-width: 0) and (max-width: 549px) {
   .repo-list li {
