@@ -12,71 +12,15 @@ body {
 }
 
 a {
-  text-decoration: none;
-}
-
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-input {
-  font-size: 1.12em;
-  height: 46px;
-  padding-bottom: 1em;
-  padding-left: 0;
-  background: none;
-  border: none;
-  outline: 0;
-  border-bottom: 4px solid #e4e4e4;
-  transition: border-color .4s;
-}
-
-input:focus {
-  border-color: #c1c1c1;
-}
-
-button {
-  width: 40px;
-  height: 35px;
-  border: 0;
-  background: none;
-  cursor: pointer;
-  outline: 0;
-  position: relative;
-  z-index: 2000;
-}
-
-.main-title {
-  font-size: 1.4em;
-  line-height: 80px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 0;
+  font-size: 14pt;
+  font-family: 'SSTProRoman', Fallback, 'Arial';
+  color: #0072cd;
 }
 
 .search-form input:only-of-type {
   width: 100%;
   margin-right: -40px;
   padding-right: 35px;
-}
-
-.search-button {
-  float: right;
-  margin-right: -10px;
-}
-
-.icn-search {
-  font-weight: 700;
-}
-
-.icon-gif {
-  font-size: 6em;
-  margin-bottom: 0;
-  color: #7bcbc4;
-  display: block;
 }
 
 .no-repos {
@@ -87,42 +31,8 @@ button {
   font-size: 1.25em;
 }
 
-.repo-list a {
-  display: block;
-  margin: auto;
-}
-
-.repo-wrap {
-  background-color: #fff;
-  margin-bottom: .8em;
-  position: relative;
-}
-
 .repo-wrap img {
   min-width: 100%;
-}
-
-.inner,
-.main-content {
-  width: 90%;
-  max-width: 1025px;
-  margin: auto;
-}
-
-.main-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #fff;
-  min-height: 80px;
-  z-index: 1000;
-}
-
-.main-content::after {
-  content: " ";
-  display: table;
-  clear: both;
 }
 
 .is-hidden {

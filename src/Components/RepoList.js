@@ -1,6 +1,14 @@
 import React from 'react';
 import Repo from './Repo';
 import NoReposExist from './NoReposExist';
+import styled from 'styled-components';
+
+const StyledRepoList = styled.div`
+  display: block;
+  margin: auto;
+  margin-bottom: .8em;
+  position: relative;
+`;
 
 const RepoList = props => {
 
@@ -13,9 +21,9 @@ const RepoList = props => {
   }
 
   return(
-    <ul className="repo-list">
+    <StyledRepoList>
       {repos}
-    </ul>
+    </StyledRepoList>
   );
 }
 
